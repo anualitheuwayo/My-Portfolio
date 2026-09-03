@@ -66,11 +66,11 @@ function Contact() {
               <span>GITHUB</span>
 
               <a
-                href="https://github.com/YOUR-GITHUB-USERNAME"
+                href="https://github.com/anualitheuwayo"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                github.com/YOUR-GITHUB-USERNAME
+                github.com/anualitheuwayo
               </a>
             </div>
 
@@ -78,7 +78,7 @@ function Contact() {
               <span>LINKEDIN</span>
 
               <a
-                href="https://www.linkedin.com/in/YOUR-LINKEDIN/"
+                href="https://www.linkedin.com/in/anualitheuwayo/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

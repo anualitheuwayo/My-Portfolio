@@ -13,7 +13,7 @@ function About() {
           <div className="about-image-wrapper">
             <div className="about-image">
               <img
-                src="/aboutimage.jpg"
+                src="/aboutimage.png"
                 alt="Analithe Uwayo"
               />
             </div>

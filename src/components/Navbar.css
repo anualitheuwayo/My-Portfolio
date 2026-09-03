@@ -44,7 +44,7 @@
 }
 
 .navbar-logo:hover {
-  color: #6d28d9;
+  color: #00091f;
 }
 
 
@@ -70,7 +70,7 @@
 }
 
 .navbar-links a:hover {
-  color: #6d28d9;
+  color: #e11d48;
 }
 
 
@@ -87,7 +87,7 @@
   width: 0;
   height: 2px;
 
-  background: #6d28d9;
+  background: #e11d48;
 
   border-radius: 2px;
 
@@ -112,7 +112,7 @@
 
   border-radius: 25px;
 
-  background: #6d28d9;
+  background: #e11d48;
 
   color: #ffffff;
 
@@ -127,7 +127,7 @@
 }
 
 .navbar-button:hover {
-  background: #5b21b6;
+  background: #e11d48;
 
   transform: translateY(-2px);
 }

@@ -5,12 +5,10 @@ function Navbar() {
     <header className="navbar">
       <div className="navbar-container">
 
-        {/* Logo */}
         <a href="#home" className="navbar-logo">
           Anualithe
         </a>
 
-        {/* Navigation */}
         <nav className="navbar-links">
           <a href="#home">Home</a>
           <a href="#about">About</a>
@@ -19,9 +17,8 @@ function Navbar() {
           <a href="#contact">Contact</a>
         </nav>
 
-        {/* CTA */}
         <a href="#contact" className="navbar-button">
-          Let's Talk
+          CV
         </a>
 
       </div>
