@@ -2,51 +2,41 @@ import "./Projects.css";
 
 function Projects() {
   const projects = [
+
     {
       number: "01",
-      title: "Fikamarket",
-      category: "Web Application",
+      title: "Point of Sale (POS) System",
+      category: "Backend Development",
       description:
-        "A digital agricultural marketplace connecting small-scale farmers with buyers and improving access to reliable markets.",
-      technologies: ["React", "FastAPI", "PostgreSQL"],
-      link: "https://github.com/YOUR-GITHUB-USERNAME/fikamarket",
+        "A backend system for managing point of sale operations in retail environments.",
+      technologies: ["FastAPI", "SQLAlchemy", "PostgreSQL", "Python", "Bcrypt", "JWT"],
+      link: "https://github.com/anualitheuwayo/POS",
       linkText: "GitHub",
     },
 
     {
       number: "02",
-      title: "JKUAT Mobile App Redesign",
-      category: "UI/UX Design",
-      description:
-        "A UX redesign focused on improving the usability, navigation and overall experience of a mobile application.",
-      technologies: ["Figma", "UX Research", "Prototyping"],
-      link: "#",
-      linkText: "Case Study",
-    },
-
-    {
-      number: "03",
       title: "Budget tracker",
       category: "Web Development",
       description:
         "A web application designed to help users manage their finances and track their expenses.",
-      technologies: ["React", "Node.js", ],
+      technologies: ["React", "Node.js",],
       link: "https://github.com/anualitheuwayo/Budget-tracker",
-      linkText: "View Project",
+      linkText: "GitHub",
     },
 
     {
-      number: "04",
+      number: "03",
       title: "Data Analysis Project",
       category: "Data & ML",
       description:
         "A data project involving data exploration, visualization, pattern discovery and machine learning.",
       technologies: ["Python", "Pandas", "NumPy", "Scikit-learn"],
-      link: "https://github.com/YOUR-GITHUB-USERNAME",
+      link: "https://github.com/anualitheuwayo/ML-Supervised-models",
       linkText: "GitHub",
     },
-        {
-      number: "05",
+    {
+      number: "04",
       title: "Motor game for fun",
       category: "JavaScript,html,css",
       description:
@@ -54,7 +44,21 @@ function Projects() {
       technologies: ["JavaScript", "HTML", "CSS"],
       link: "https://github.com/anualitheuwayo/Motor-game",
       linkText: "GitHub",
+      link: "https://motorgame.vercel.app/",
+      LinkText: "Live Demo",
     },
+    {
+      number: "05",
+      title: "House Pricing Encoding Techniques",
+      category: "Data & ML",
+      description:
+        "A project exploring various encoding techniques for house pricing data.",
+      technologies: ["Python", "Pandas", "Scikit-learn","Data Preprocessing","NumPy"],
+      link: "https://github.com/anualitheuwayo/House-Pricing_Encoding_Techniques",
+      linkText: "GitHub",
+     
+    },
+
   ];
 
 
