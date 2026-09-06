@@ -43,7 +43,7 @@ function Projects() {
         "A simple motor game built with JavaScript, HTML, and CSS.",
       technologies: ["JavaScript", "HTML", "CSS"],
       link: "https://github.com/anualitheuwayo/Motor-game",
-      linkText: "GitHub",
+      linkText: "Play",
       link: "https://motorgame.vercel.app/",
       LinkText: "Live Demo",
     },
