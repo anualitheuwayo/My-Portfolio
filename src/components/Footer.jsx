@@ -7,7 +7,7 @@ function Footer() {
 
         <div className="footer-brand">
           <a href="#home" className="footer-logo">
-            Analithe
+            Anualithe
           </a>
 
           <p>
@@ -40,7 +40,7 @@ function Footer() {
             LinkedIn
           </a>
 
-          <a href="mailto:YOUR-EMAIL@example.com">
+          <a href="mailto:anualitheuwayo@gmail.com">
             Email
           </a>
         </div>
@@ -49,7 +49,7 @@ function Footer() {
 
       <div className="footer-bottom">
         <p>
-          © {new Date().getFullYear()} Analithe. All rights reserved.
+          © {new Date().getFullYear()} Anualithe. All rights reserved.
         </p>
 
         <a href="#home">
