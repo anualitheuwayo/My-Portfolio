@@ -18,7 +18,7 @@ function Navbar() {
         </nav>
 
         <a
-          href="/resume"
+          href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="navbar-button"
