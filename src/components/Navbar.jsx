@@ -17,9 +17,15 @@ function Navbar() {
           <a href="#contact">Contact</a>
         </nav>
 
-        <a href="#contact" className="navbar-button">
-          CV
+        <a
+          href="/resume"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="navbar-button"
+        >
+          RESUME
         </a>
+
 
       </div>
     </header>

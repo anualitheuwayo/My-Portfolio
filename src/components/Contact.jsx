@@ -74,17 +74,7 @@ function Contact() {
               </a>
             </div>
 
-            <div className="contact-item">
-              <span>LINKEDIN</span>
-
-              <a
-                href="https://www.linkedin.com/in/anualitheuwayo/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn Profile
-              </a>
-            </div>
+         
           </div>
 
           <form className="contact-form" onSubmit={handleSubmit}>

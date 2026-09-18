@@ -43,14 +43,6 @@ function Hero() {
               GitHub
             </a>
 
-            <a
-              href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              LinkedIn
-            </a>
-
             <a href="mailto:YOUR-EMAIL@example.com">
               Email
             </a>
