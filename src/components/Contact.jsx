@@ -1,12 +1,42 @@
+import { useEffect, useState } from "react";
 import "./Contact.css";
 
 const WEB3FORMS_ACCESS_KEY = "6259453e-de6b-476e-83bf-9aabd8d87238";
 const WEB3FORMS_SUBMIT_URL = "https://api.web3forms.com/submit";
+const CONTACT_SUCCESS_KEY = "contact-form-success";
 
 function Contact() {
-  const contactSuccess =
-    new URLSearchParams(window.location.search).get("contact") === "success";
-  const successUrl = `${window.location.origin}/?contact=success#contact`;
+  const [contactSuccess, setContactSuccess] = useState(() => {
+    const querySuccess =
+      new URLSearchParams(window.location.search).get("contact") === "success";
+
+    return (
+      querySuccess ||
+      window.sessionStorage.getItem(CONTACT_SUCCESS_KEY) === "true"
+    );
+  });
+  const successUrl = `${window.location.origin}/#contact`;
+
+  useEffect(() => {
+    const querySuccess =
+      new URLSearchParams(window.location.search).get("contact") === "success";
+    const storedSuccess =
+      window.sessionStorage.getItem(CONTACT_SUCCESS_KEY) === "true";
+
+    if (querySuccess || storedSuccess) {
+      setContactSuccess(true);
+      window.sessionStorage.removeItem(CONTACT_SUCCESS_KEY);
+      window.history.replaceState(
+        {},
+        document.title,
+        `${window.location.pathname}#contact`
+      );
+    }
+  }, []);
+
+  function handleSubmit() {
+    window.sessionStorage.setItem(CONTACT_SUCCESS_KEY, "true");
+  }
 
   return (
     <section className="contact-section" id="contact">
@@ -57,6 +87,7 @@ function Contact() {
             className="contact-form"
             action={WEB3FORMS_SUBMIT_URL}
             method="POST"
+            onSubmit={handleSubmit}
           >
             {contactSuccess && (
               <div className="form-success" role="status">
