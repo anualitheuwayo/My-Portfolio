@@ -164,6 +164,24 @@
   font-size: 12px;
 }
 
+.form-success {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 20px;
+  padding: 12px 14px;
+  background: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  border-radius: 5px;
+  color: #047857;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.form-success strong {
+  font-size: 13px;
+}
+
 .contact-button {
   display: inline-flex;
   align-items: center;
