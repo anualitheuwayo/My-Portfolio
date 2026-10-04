@@ -63,12 +63,12 @@ function Projects() {
 
     {
       number: "04",
-      title: "Data Analysis Project",
+      title: "Supervised Machine Learning Models",
       category: "Data & ML",
       description:
-        "A data project involving data exploration, visualization, pattern discovery and machine learning.",
+        "A machine-learning project exploring supervised learning models for prediction and classification tasks.",
       details:
-        "This project focuses on transforming raw data into useful insights. It includes data cleaning, exploratory data analysis, visualization, feature preparation and supervised machine learning techniques using Python's data science ecosystem.",
+        "This project demonstrates an end-to-end supervised machine-learning workflow using Python. It covers data cleaning, exploratory data analysis, feature preparation, train-test splitting, model training, and performance evaluation. Multiple supervised learning algorithms are applied and compared to understand how well they learn patterns from labelled data and make predictions on unseen data. The project highlights practical use of the Scikit-learn ecosystem for building, evaluating, and improving predictive models.",
       technologies: [
         "Python",
         "Pandas",
