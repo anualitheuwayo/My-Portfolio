@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import ScrollReveal from "./components/ScrollReveal";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
@@ -14,14 +15,30 @@ function App() {
       <Navbar />
 
       <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-      </main>
+        <ScrollReveal direction="up" distance={40} duration={700}>
+          <Hero />
+        </ScrollReveal>
 
-      <Footer />
+        <ScrollReveal direction="up" distance={50} duration={800} delay={80}>
+          <About />
+        </ScrollReveal>
+
+        <ScrollReveal direction="up" distance={50} duration={800} delay={100}>
+          <Skills />
+        </ScrollReveal>
+
+        <ScrollReveal direction="scale" distance={0} duration={800} delay={120}>
+          <Projects />
+        </ScrollReveal>
+
+        <ScrollReveal direction="up" distance={50} duration={800} delay={100}>
+          <Contact />
+        </ScrollReveal>
+
+        <ScrollReveal direction="up" distance={40} duration={700} delay={60}>
+          <Footer />
+        </ScrollReveal>
+      </main>
     </>
   );
 }

@@ -1,6 +1,6 @@
 .contact-section {
   padding: 100px 0 90px;
-  background: #ffffff;
+  background: var(--bg);
 }
 
 .contact-container {
@@ -19,7 +19,7 @@
 .contact-heading span {
   display: block;
   margin-bottom: 12px;
-  color: #e11d48;
+  color: var(--accent);
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -27,7 +27,7 @@
 
 .contact-heading h2 {
   margin: 0 0 16px;
-  color: #111827;
+  color: var(--text);
   font-size: 48px;
   line-height: 1.1;
   letter-spacing: -2px;
@@ -35,7 +35,7 @@
 
 .contact-heading p {
   margin: 0;
-  color: #64748b;
+  color: var(--text-secondary);
   font-size: 15px;
   line-height: 1.7;
 }
@@ -49,7 +49,7 @@
 
 .contact-info h3 {
   margin: 0 0 15px;
-  color: #111827;
+  color: var(--text);
   font-size: 28px;
   letter-spacing: -0.8px;
 }
@@ -57,31 +57,31 @@
 .contact-info > p {
   max-width: 390px;
   margin: 0 0 30px;
-  color: #64748b;
+  color: var(--text-secondary);
   font-size: 14px;
   line-height: 1.8;
 }
 
 .contact-item {
   padding: 18px 0;
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid var(--border);
 }
 
 .contact-item:last-child {
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid var(--border);
 }
 
 .contact-item span {
   display: block;
   margin-bottom: 6px;
-  color: #e11d48;
+  color: var(--accent);
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 1.5px;
 }
 
 .contact-item a {
-  color: #111827;
+  color: var(--text);
   text-decoration: none;
   font-size: 13px;
   font-weight: 600;
@@ -89,13 +89,13 @@
 }
 
 .contact-item a:hover {
-  color: #e11d48;
+  color: var(--accent);
 }
 
 .contact-form {
   padding: 30px;
-  background: #fafafa;
-  border: 1px solid #e5e7eb;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
   border-radius: 10px;
 }
 
@@ -106,7 +106,7 @@
 .form-group label {
   display: block;
   margin-bottom: 8px;
-  color: #111827;
+  color: var(--text);
   font-size: 12px;
   font-weight: 700;
 }
@@ -116,11 +116,11 @@
   width: 100%;
   box-sizing: border-box;
   padding: 13px 14px;
-  background: #ffffff;
-  border: 1px solid #dfe3e8;
+  background: var(--bg);
+  border: 1px solid var(--border);
   border-radius: 6px;
   outline: none;
-  color: #111827;
+  color: var(--text);
   font-family: inherit;
   font-size: 13px;
   transition:
@@ -139,28 +139,28 @@
 
 .form-group input::placeholder,
 .form-group textarea::placeholder {
-  color: #94a3b8;
+  color: var(--text-muted);
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: #e11d48;
-  box-shadow: 0 0 0 3px rgba(225, 29, 72, 0.08);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--shadow-glow);
 }
 
 .form-group > div {
   margin-top: 5px;
-  color: #e11d48;
+  color: var(--accent);
   font-size: 11px;
 }
 
 .form-error {
   margin-bottom: 15px;
   padding: 10px 12px;
-  background: #fff1f2;
-  border: 1px solid #fecdd3;
+  background: var(--bg);
+  border: 1px solid var(--border);
   border-radius: 5px;
-  color: #be123c;
+  color: var(--text-secondary);
   font-size: 12px;
 }
 
@@ -170,16 +170,17 @@
   gap: 4px;
   margin-bottom: 20px;
   padding: 12px 14px;
-  background: #ecfdf5;
-  border: 1px solid #a7f3d0;
+  background: var(--bg);
+  border: 1px solid var(--border);
   border-radius: 5px;
-  color: #047857;
+  color: var(--text-secondary);
   font-size: 13px;
   line-height: 1.5;
 }
 
 .form-success strong {
   font-size: 13px;
+  color: var(--accent);
 }
 
 .contact-button {
@@ -188,7 +189,7 @@
   justify-content: center;
   gap: 8px;
   padding: 13px 20px;
-  background: #111827;
+  background: var(--accent);
   border: none;
   border-radius: 5px;
   color: #ffffff;
@@ -202,7 +203,13 @@
 }
 
 .contact-button:hover {
-  background: #e11d48;
+  background: var(--accent-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-glow);
+}
+
+.contact-button:hover {
+  background: var(--accent);
   transform: translateY(-2px);
 }
 
@@ -227,8 +234,8 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: #fff1f2;
-  color: #e11d48;
+  background: var(--bg);
+  color: var(--accent);
   font-size: 24px;
   font-weight: 700;
 }
@@ -236,7 +243,7 @@
 .contact-success > span {
   display: block;
   margin-bottom: 12px;
-  color: #e11d48;
+  color: var(--accent);
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -244,7 +251,7 @@
 
 .contact-success h2 {
   margin: 0 0 15px;
-  color: #111827;
+  color: var(--text);
   font-size: 38px;
   letter-spacing: -1px;
 }
@@ -252,7 +259,7 @@
 .contact-success p {
   max-width: 500px;
   margin: 0 auto 25px;
-  color: #64748b;
+  color: var(--text-secondary);
   font-size: 14px;
   line-height: 1.7;
 }

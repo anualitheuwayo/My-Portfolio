@@ -185,51 +185,37 @@ function Projects() {
           ))}
         </div>
 
-        <div className="projects-list">
+        <div className="projects-grid">
           {filteredProjects.map((project) => (
             <article
-              className="project-row"
+              className="project-card"
               key={project.number}
               onClick={() => setSelectedProject(project)}
             >
-              <div className="project-number">
-                {project.number}
+              <div className="project-card-top">
+                <span className="project-number">{project.number}</span>
+                <span className="project-category">{project.category}</span>
               </div>
 
-              <div className="project-main">
+              <h3 className="project-title">{project.title}</h3>
+              <p className="project-description">{project.description}</p>
 
-                <div className="project-title-row">
-                  <h3>{project.title}</h3>
+              <div className="project-technologies">
+                {project.technologies.map((technology) => (
+                  <span key={technology}>{technology}</span>
+                ))}
+              </div>
 
-                  <span className="project-category">
-                    {project.category}
-                  </span>
-                </div>
-
-                <p>{project.description}</p>
-
-                <div className="project-bottom">
-
-                  <div className="project-technologies">
-                    {project.technologies.map((technology) => (
-                      <span key={technology}>
-                        {technology}
-                      </span>
-                    ))}
-                  </div>
-
-                  <button
-                    className="project-view"
-                    onClick={(event) => {
-                      event.stopPropagation();
-                      setSelectedProject(project);
-                    }}
-                  >
-                    View Project
-                    <span>↗</span>
-                  </button>
-
-                </div>
+              <div className="project-card-footer">
+                <button
+                  className="project-view"
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    setSelectedProject(project);
+                  }}
+                >
+                  View Project <span>↗</span>
+                </button>
               </div>
             </article>
           ))}
@@ -265,9 +251,7 @@ function Projects() {
 
             <div className="modal-technologies">
               {selectedProject.technologies.map((technology) => (
-                <span key={technology}>
-                  {technology}
-                </span>
+                <span key={technology}>{technology}</span>
               ))}
             </div>
 
