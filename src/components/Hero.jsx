@@ -15,7 +15,7 @@ function Hero() {
           </h1>
 
           <h2> 
-            Software Developer <span>&</span> UI/UX Designer
+            Software Engineer <span>&</span> UI/UX Designer
           </h2>
 
           <p className="hero-description">

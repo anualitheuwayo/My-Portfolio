@@ -21,12 +21,12 @@ function About() {
 
           <div className="about-text">
             <h3>
-              I'm a developer who enjoys turning
+              I'm an engineer who enjoys turning
               <span> ideas into real products.</span>
             </h3>
 
             <p>
-              I'm a Software Developer and UI/UX Designer with an interest
+              I'm a Software Engineer and UI/UX Designer with an interest
               in building digital products that are useful, accessible,
               and visually engaging.
             </p>

@@ -137,6 +137,26 @@ function Projects() {
         "https://github.com/anualitheuwayo/House-Pricing_Encoding_Techniques",
       linkText: "GitHub",
     },
+
+    {
+      number: "08",
+      title: "FikaMarket",
+      category: "UI/UX Design",
+      description:
+        "A user-centered agricultural marketplace connecting farmers with buyers through mobile and desktop experiences.",
+      details:
+        "FikaMarket is a UI/UX design project focused on improving how farmers and buyers discover and access agricultural products. The design process includes user research, wireframing, final interface screens, and an interactive prototype for mobile and desktop platforms. The goal is to create a clear, accessible, and intuitive marketplace experience.",
+      technologies: [
+        "Figma",
+        "UI/UX Design",
+        "User Research",
+        "Wireframing",
+        "Prototyping",
+      ],
+      demo: "https://www.behance.net/gallery/255567957/FikaMarket-UIUX-Case-Study",
+      demoText: "Live Demo",
+      
+    },
   ];
 
   const categories = [
@@ -145,6 +165,7 @@ function Projects() {
     "Web Development",
     "Data & ML",
     "JavaScript",
+    "UI/UX Design",
   ];
 
   const filteredProjects =
