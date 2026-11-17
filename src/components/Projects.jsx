@@ -245,7 +245,7 @@ function Projects() {
       description:
         " A backend system for managing school operations and student records.",
       details:
-        "The School Management System is a comprehensive backend solution designed to streamline administrative tasks within educational institutions. It handles student information, attendance, grades, and communication between staff and parents.",
+        "The School Management System is a comprehensive backend solution designed to streamline administrative tasks within educational institutions. It handles student information, attendance, grades, and communication between staff and trainers.",
       technologies: [
         "Python",
         "FastAPI",
@@ -258,12 +258,10 @@ function Projects() {
 
       ],
       link:
-        "https://github.com/akirachix/sulwe-frontend",
+        "https://github.com/anualitheuwayo/School-Managemet/tree/main/projects/school_management",
       linkText: "GitHub",
      
     },
-
-
 
   ];
 
