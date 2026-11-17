@@ -147,18 +147,18 @@ function Projects() {
       details:
         "FikaMarket is a UI/UX design project focused on improving how farmers and buyers discover and access agricultural products. The design process includes user research, wireframing, final interface screens, and an interactive prototype for mobile and desktop platforms. The goal is to create a clear, accessible, and intuitive marketplace experience.",
       technologies: [
-         
-          "Flutter",
-          "Dart",
-          "React",
-          "Next.js",
-          "JavaScript",
-          "Tailwind CSS",
-          "REST API Integration",
-          "Figma",
-          "Responsive Design",
-          "Progressive Web App",
-        
+
+        "Flutter",
+        "Dart",
+        "React",
+        "Next.js",
+        "JavaScript",
+        "Tailwind CSS",
+        "REST API Integration",
+        "Figma",
+        "Responsive Design",
+        "Progressive Web App",
+
       ],
       link:
         "https://github.com/akirachix/Cipher_Backend",
@@ -167,6 +167,104 @@ function Projects() {
       demoText: "Live Demo",
 
     },
+
+    {
+      number: "09",
+      title: "IT support dashboard",
+      category: "Web & Mobile Development",
+      description:
+        " Dashboard for IT support team to manage and track support tickets and requests.",
+      details:
+        "This is a simple IT support dashboard built with React and Node.js. The goal is to create a clear, accessible, and intuitive interface for managing support tickets and requests.",
+      technologies: [
+
+        "React",
+        "Next.js",
+        "JavaScript",
+        "Tailwind CSS",
+        "REST API Integration",
+        "Figma",
+        "Responsive Design",
+        "Progressive Web App",
+
+      ],
+      link:
+        "https://github.com/akirachix/IT-Support-Dashboard",
+      linkText: "GitHub",
+      demo: "https://it-support-dashboard-kappa.vercel.app/",
+      demoText: "Live Demo",
+      link:
+        "https://www.figma.com/design/qTSHeVHUK6NoxBrggMdY6E/IT-SUPPORT-DASHBOARD?node-id=0-1&t=KxKkeJYD8q9LF8yk-1",
+      linkText: "figma design"
+
+    },
+
+
+    {
+      number: "10",
+      title: "Umucyo",
+      category: "Web & Mobile Development",
+      description:
+        " A progress web and IoT enabled application for bringing trasparency between tea farmers and cooperatives in rwanda.",
+      details:
+        "Umucyo is an IoT-enabled tea cooperative platform where connected weighing scales record every delivery and send the farmer an SMS with the weight and amount earned. Farmers check their delivery records by USSD on any phone, while cooperative staff manage farmers, prices and monthly mobile money payments from one dashboard.",
+      technologies: [
+
+        "React",
+        "Next.js",
+        "JavaScript",
+        "Tailwind CSS",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "SQLAlchemy",
+        "Pydantic",
+        "JWT",
+        "Bcrypt",
+        "Pytest",
+        "Figma",
+        "Responsive Design",
+        "Progressive Web App",
+
+      ],
+      link:
+        "https://github.com/akirachix/sulwe-frontend",
+      linkText: "GitHub",
+      demo: "https://sulwe-frontend.vercel.app",
+      demoText: "Live Demo",
+      link:
+        "https://www.figma.com/design/S72ejr0O70XSSEj0ZPGrPg/Group-Sulwe?node-id=0-1&t=sEaPq3N9il2i0a2T-1",
+      linkText: "figma design"
+
+    },
+
+    {
+      number: "11",
+      title: "School Management System",
+      category: "Backend Development",
+      description:
+        " A backend system for managing school operations and student records.",
+      details:
+        "The School Management System is a comprehensive backend solution designed to streamline administrative tasks within educational institutions. It handles student information, attendance, grades, and communication between staff and parents.",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "SQLAlchemy",
+        "Pydantic",
+        "JWT",
+        "Bcrypt",
+        "Pytest",
+
+      ],
+      link:
+        "https://github.com/akirachix/sulwe-frontend",
+      linkText: "GitHub",
+     
+    },
+
+
+
   ];
 
   const categories = [
@@ -175,7 +273,7 @@ function Projects() {
     "Web & Mobile Development",
     "Data & ML",
     "JavaScript",
-    
+
   ];
 
   const filteredProjects =
